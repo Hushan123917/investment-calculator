@@ -12,7 +12,7 @@ import { InvestmentService } from '../user-input/investment.service';
 })
 export class InvestmentResultsComponents{
   private invesmentService = inject (InvestmentService);
-   results = computed(() => this.invesmentService.resultData());
+   results = computed(() => this.invesmentService.resultData);
 
 
   }

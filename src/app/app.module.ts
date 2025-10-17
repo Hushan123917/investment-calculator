@@ -6,17 +6,19 @@ import { InvestmentResultsComponents } from "../investment-results";
 import { FormsModule } from "@angular/forms";
 import { BrowserModule } from "@angular/platform-browser";
 
-@NgModule({
-declarations:[
-],
-
-
-
-  imports: [
-    FormsModule,
-    BrowserModule,
-    HeaderComponent
-  ],
-  // Removed bootstrap array as AppComponent is standalone
-  })
-export class AppModule{}
+// @NgModule({
+// declarations:[
+// ],
+//
+//
+//
+//   imports: [
+//     FormsModule,
+//     BrowserModule,
+//     HeaderComponent
+//   ],
+//   providers: [],
+//   bootstrap: [AppComponent],
+//   // Removed bootstrap array as AppComponent is standalone
+//   })
+// export class AppModule{}
