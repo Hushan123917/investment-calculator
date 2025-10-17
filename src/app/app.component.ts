@@ -7,10 +7,10 @@ import { InvestmentResultsComponents } from "./investment-results/investment-res
 
 @Component({
   selector: 'app-root',
-  // imports: [HeaderComponent,UserInputComponent, InvestmentResultsComponents],
+  imports: [HeaderComponent,UserInputComponent, InvestmentResultsComponents],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  // standalone:true
+  standalone:true
 })
 export class AppComponent {
 
